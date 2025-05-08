@@ -8,4 +8,4 @@ gcc -c test_fs.c   # Compile the test program
 
 gcc disk.o fs.o test_fs.o -o fs_test  # Link everything together
 
-./fs_test # to run the code
+.\fs_test # to run the code
